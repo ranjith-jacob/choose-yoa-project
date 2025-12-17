@@ -10,9 +10,16 @@
 <body>
     <h1>[Heading]</h1>
     
-    <input id="player_name" type="text"></input>
-    <label for="player_name">Who are you?</label>
-    <button id="player-start">Begin!</button>
+    <section>
+        <div id="landing">
+            <p>[Hello there and here's what this page is about]<!-- [Welcome & Instructions] --></p>
+            <!-- Image -->
+            <input id="player-name" type="text"></input>
+            <label for="player-name" id="field">Who are you?</label>
+            <button id="player-start">Begin!</button>
+        </div>
+    
+    </section>
     
     <section id="start-game">
         <!-- <img src="text" alt="text"/> Need to add images/media to each turn/page/scene -->
@@ -21,6 +28,16 @@
             <button id="choice1">move to turn-1</button>
             <button id="choice2">move to turn-2</button>
         <!-- Starting page, perhaps redirected from landing page -->
+        </div>
+
+        <div class="turn" id="generic-win">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
+            <button id="explore">Move to another reality?</button>
+        </div>
+
+        <div class="turn" id="generic-fail">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
+            <button id="oops">Try again?</button>
         </div>
 
         <div class="turn" id="turn-1">
@@ -101,9 +118,9 @@
 
     </section>
 
-    <button id="oops">Try again?</button> 
+    <!-- <button id="oops">Try again?</button>  -->
     <!-- Unsuccessful ending -->
-    <button id="explore">Move to another reality?</button>
+    <!-- <button id="explore">Move to another reality?</button> -->
     <!-- Successful ending  -->
     
 

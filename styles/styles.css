@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #51686b;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.turn {
+    display: none;
+}
+
+.turn.active {
+    display: block;
+}

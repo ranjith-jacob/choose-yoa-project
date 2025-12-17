@@ -11,7 +11,12 @@
 const playerStart = document.querySelector("#player-start");
 const playerRestart = document.querySelector("#oops");
 const playerRefresh = document.querySelector("#explore");
+const turns = document.querySelectorAll(".turn");
+const buttons = document.querySelectorAll("button");
 
 /*-------------------------------- Functions --------------------------------*/
 
+
+
 /*----------------------------- Event Listeners -----------------------------*/
+
