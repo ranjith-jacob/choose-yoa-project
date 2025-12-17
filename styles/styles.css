@@ -3,12 +3,14 @@ body {
   background-color: #51686b;
   color: #ffffff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 #landing {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
