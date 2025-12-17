@@ -8,11 +8,18 @@ body {
   align-items: center;
 }
 
-#landing {
+/* #start-game {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+} */
+
+#start-game {
+    width: 420px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .turn {
