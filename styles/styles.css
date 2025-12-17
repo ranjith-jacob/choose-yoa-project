@@ -22,3 +22,11 @@ body {
 .turn.active {
     display: block;
 }
+
+#player-name {
+    margin: 200px auto 20px auto;
+}
+
+#button-label {
+    margin: 20px auto;
+}
