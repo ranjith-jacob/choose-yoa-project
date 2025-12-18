@@ -9,11 +9,12 @@
 /*------------------------ Cached Element References ------------------------*/
 
 // const playerStart = document.querySelector("#player-start");
-const playerRestart = document.querySelector("#oops");
-const playerRefresh = document.querySelector("#explore");
+// const playerRestart = document.querySelector("#oops");
+// const playerRefresh = document.querySelector("#explore");
 const turns = document.querySelectorAll(".turn");
 const restartBtnElements = document.querySelectorAll(".restart");
 const turnBtnElements = document.querySelectorAll(".turn-btn");
+const flipCoin = document.getElementById("flip-btn");
 
 /*-------------------------------- Functions --------------------------------*/
 
@@ -35,9 +36,18 @@ restartBtnElements.forEach((restartBtnElement) => {
 
 turnBtnElements.forEach((turnBtnElement) => {
   turnBtnElement.addEventListener("click", () => {
-  let turnNum = turnBtnElement.id
+  let turnNum = turnBtnElement.classList [1];
   showTurn(turnNum);
   })
+});
+
+flipCoin.addEventListener("click", () => {
+  let flip = Math.floor(Math.random() * 2);
+  if (flip === 1) {
+    showTurn(5);
+  } else { 
+    showTurn(6);
+  }
 });
 
 showTurn(0);

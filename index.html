@@ -8,113 +8,69 @@
     <title>Choose your own adventure</title>
 </head>
 <body>
-    <h1>Help a wizard in need</h1>
-    
-    <!-- <section>
-        <div id="turn-0">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, culpa doloremque soluta ut saepe eveniet a excepturi eaque nulla esse quod earum consequuntur optio? Consequatur odit sapiente sint et debitis?</p>
-            <input id="player-name" type="text"></input>
-            <label for="player-name" id="button-label">Who are you?</label>
-            <button class="turn-btn" id="player-start">Begin!</button>
-        </div>
-    </section> -->
+    <h1>Help the stranded wizard</h1>
     
     <section id="start-game">
         <div class="turn" id="turn-0">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <input id="player-name" type="text" placeholder="What's your name?"></input>
-            <label for="player-name" id="button-label"></label>
-            <button class="turn-btn" id="1">move to turn-1</button>
-            <button class="turn-btn" id="2">move to turn-2</button>
+            <p>Text for #turn-0</p>
+            <!-- <input id="player-name" type="text" placeholder="What's your name?"></input>
+            <label for="player-name" id="button-label"></label> -->
+            <button class="turn-btn 1">move to turn-1</button>
+            <button class="turn-btn 2">move to turn-2</button>
         </div>
 
         <div class="turn" id="turn-1">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="turn-btn" id="3">move to turn-3</button>
-            <button class="turn-btn" id="4">move to turn-4</button>
+            <p>Text for #turn-1</p>
+            <button class="turn-btn 3">move to turn-3</button>
+            <button class="turn-btn 4">move to turn-4</button>
         </div>
 
         <div class="turn" id="turn-2">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="turn-btn" id="5">move to turn-5</button>
-            <button class="turn-btn" id="6">move to turn-6</button>
+            <p>Text for #turn-2</p>
+            <button class="turn-btn 3">move to turn-3</button>
+            <button class="turn-btn 4">move to turn-4</button>
         </div>
 
         <div class="turn" id="turn-3">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="turn-btn" id="7">move to turn-7</button>
-            <button class="turn-btn" id="8">move to turn-8</button>
+            <p>Text for #turn-3, coin flip</p>
+            <button id="flip-btn">Flip a coin</button>
+            <!-- <button class="turn-btn" id="7">move to turn-7</button>
+            <button class="turn-btn" id="8">move to turn-8</button> -->
         </div>
 
         <div class="turn" id="turn-4">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="turn-btn" id="9">move to turn-9</button>
-            <button class="turn-btn" id="10">move to turn-10</button>
+            <p>Text for #turn-4, Endpoint 1</p>
+            <button class="restart">Restart?</button>
+            <!-- <button class="turn-btn" id="9">move to turn-9</button>
+            <button class="turn-btn" id="10">move to turn-10</button> -->
         </div>
 
         <div class="turn" id="turn-5">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="turn-btn" id="11">move to turn-11</button>
-            <button class="turn-btn" id="12">move to turn-12</button>
+            <p>Text for #turn-5, Heads on coinflip, Endpoint 2</p>
+            <button class="restart">Restart?</button>
+            <!-- <button class="turn-btn" id="11">move to turn-11</button>
+            <button class="turn-btn" id="12">move to turn-12</button> -->
         </div>
 
         <div class="turn" id="turn-6">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="turn-btn" id="13">move to turn-13</button>
-            <button class="turn-btn" id="14">move to turn-14</button>
+            <p>Text for #turn-6, Tails on coin flip</p>
+            <button class="turn-btn 7">move to turn-7</button>
+            <button class="turn-btn 8">move to turn-8</button>
         </div>
 
         <div class="turn" id="turn-7">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="turn-btn" id="15">move to turn-15</button>
-            <button class="turn-btn" id="16">move to turn-16</button>
+            <p>Text for #turn-7, Endpoint 3</p>
+            <button class="restart">Restart?</button>
+            <!-- <button class="turn-btn" id="15">move to turn-15</button>
+            <button class="turn-btn" id="16">move to turn-16</button> -->
         </div>
 
         <div class="turn" id="turn-8">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="turn-btn" id="17">move to turn-17</button>
-            <button class="turn-btn" id="18">move to turn-18</button>
+            <p>Text for #turn-8, Endpoint 4</p>
+            <button class="restart">Restart?</button>
+            <!-- <button class="turn-btn" id="17">move to turn-17</button>
+            <button class="turn-btn" id="18">move to turn-18</button> -->
         </div>
-
-        <div class="turn" id="turn-9">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="turn-btn" id="19">move to turn-19</button>
-            <button class="turn-btn" id="20">move to turn-20</button>
-        </div>
-
-        <!-- Generic win condition -->
-        <div class="turn" id="turn-10">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="restart" id="explore">Move to another reality?</button>
-        </div>
-
-        <!-- Generic lose condition -->
-        <div class="turn" id="turn-11">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque molestias non minima. Aspernatur nostrum facere doloremque repellat labore quo distinctio cum consequuntur quidem sed consequatur itaque odit, repellendus magni odio!</p>
-            <button class="restart" id="oops">Try again?</button>
-        </div>
-
-        <!-- <div class="turn" id="turn-10"></div>
-
-        <div class="turn" id="turn-11"></div>
-
-        <div class="turn" id="turn-12"></div>
-
-        <div class="turn" id="turn-13"></div>
-
-        <div class="turn" id="turn-14"></div>
-
-        <div class="turn" id="turn-15"></div>
-
-        <div class="turn" id="turn-16"></div>
-
-        <div class="turn" id="turn-17"></div>
-
-        <div class="turn" id="turn-18"></div>
-
-        <div class="turn" id="turn-19"></div>
-
-        <div class="turn" id="turn-20"></div> -->
 
     </section>
 
