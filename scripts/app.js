@@ -49,10 +49,3 @@ flipCoin.addEventListener("click", () => {
 
 showTurn(0);
 
-/*------------------------------ Code graveyard ------------------------------*/
-
-//console.log("Hello world!");
-// const playerStart = document.querySelector("#player-start");
-// const playerRestart = document.querySelector("#oops");
-// const playerRefresh = document.querySelector("#explore");
-

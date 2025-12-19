@@ -1,13 +1,21 @@
 
+h1 {
+    color: black;
+}
+
 body {
     font-family: Georgia, sans-serif;
     height: 100vh;
-    background-color: rgb(150, 148, 148);
+    background-color: rgb(241, 188, 13);
     color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+a {
+    color: orange;
 }
 
 #start-game {
@@ -24,14 +32,20 @@ body {
 }
 
 .turn.active {
-    height: 270px;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #000000;
+    background-color: #093a02;
     padding: 20px;
     border-radius: 8px;
+}
+
+img {
+    width: 50%;
+    height: 300px;
+    margin-top: 20px;
 }
 
 .btn-container {
@@ -52,9 +66,3 @@ button:hover {
     cursor: pointer;
     background-color: blanchedalmond;
 }
-
-/* Code graveyard */
-
-/* #button-label {
-    margin: 20px auto;
-} */
