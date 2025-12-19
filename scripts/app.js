@@ -1,4 +1,4 @@
-//console.log("Hello world!");
+
 
 /*-------------------------------- Constants --------------------------------*/
 
@@ -8,9 +8,6 @@
 
 /*------------------------ Cached Element References ------------------------*/
 
-// const playerStart = document.querySelector("#player-start");
-// const playerRestart = document.querySelector("#oops");
-// const playerRefresh = document.querySelector("#explore");
 const turns = document.querySelectorAll(".turn");
 const restartBtnElements = document.querySelectorAll(".restart");
 const turnBtnElements = document.querySelectorAll(".turn-btn");
@@ -51,3 +48,11 @@ flipCoin.addEventListener("click", () => {
 });
 
 showTurn(0);
+
+/*------------------------------ Code graveyard ------------------------------*/
+
+//console.log("Hello world!");
+// const playerStart = document.querySelector("#player-start");
+// const playerRestart = document.querySelector("#oops");
+// const playerRefresh = document.querySelector("#explore");
+
